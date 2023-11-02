@@ -111,12 +111,12 @@ ip: IP address of the reporter
 
 status: If the scam is currently active, inactive or has been taken offline
 
-# Part A. Time Analysis (25%)
+# Part A. Time Analysis 
 Create a bar plot showing the number of transactions occurring every month between the start and end of the dataset.
 Create a bar plot showing the average value of transaction in each month between the start and end of the dataset.
 
-# Part B. Top Ten Most Popular Services (25%)
+# Part B. Top Ten Most Popular Services 
 Evaluate the top 10 smart contracts by total Ether received. You will need to join address field in the contracts dataset to the to_address in the transactions dataset to determine how much ether a contract has received.
 
-# Part C. Top Ten Most Active Miners (10%)
+# Part C. Top Ten Most Active Miners
 Evaluate the top 10 miners by the size of the blocks mined. This is simpler as it does not require a join. You will first have to aggregate blocks to see how much each miner has been involved in. You will want to aggregate size for addresses in the miner field. You can add each value from the reducer to a list and then sort the list to obtain the most active miners.
